@@ -36,7 +36,7 @@ function SearchBar() {
       <input
         type="search"
         value={searchValue}
-        placeholder="Buscar produtos"
+        placeholder="Buscar pratos"
         className="search__input"
         onChange={ ({ target }) => setSearchValue(target.value) }
         required

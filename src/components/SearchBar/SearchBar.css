@@ -6,8 +6,8 @@
   gap: 13px;
   padding-right: 13px;
 
-  background-color: burlywood;
-  box-shadow: 0 3px 1px 0 black;
+  background-color: var(--color4);
+  box-shadow: 0 3px 1px rgba(0, 0, 0, 0.4);
 }
 
 .search__input{
@@ -17,15 +17,17 @@
   outline: none;
   font-size: 0.8rem;
   font-weight: 500px;
- border-right:  2px solid rgb(134, 82, 9);
+  border-right:  2px solid var(--color5);
+  
 }
 
 .search__button{
   background: none;
   border: none;
-  font-size:  1rem;
+  font-size:  1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(159, 90, 34);
+  color: var(--color5);
+  cursor: pointer;
 }

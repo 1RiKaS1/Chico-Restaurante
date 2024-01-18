@@ -1,0 +1,16 @@
+.about{
+  display: flex;
+  padding: 160px;
+  width: 100%;
+
+  background: rgb(255,194,111);
+  background: linear-gradient(180deg, rgba(255,194,111,1)80%, rgba(249,224,187,1) 100%);
+  color: var(--color1);
+}
+
+.about-img{
+  min-width:10px;
+  size: 10em;
+  width: auto;
+  border-radius: 40px;
+}

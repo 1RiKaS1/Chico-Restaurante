@@ -26,9 +26,12 @@ function Products() {
 
   return (
     (loading && <Loading /> ) || (
-      <section className="products container">
-        {products.map((product) => <ProductCard key={product.id} data={product} />)}
-      </section>
+      <div>
+        <h1 className="products-title">- Cardápio -</h1>
+        <section className="products container">
+          {products.map((product) => <ProductCard key={product.id} data={product} />)}
+        </section>
+      </div>
     )
     
   );

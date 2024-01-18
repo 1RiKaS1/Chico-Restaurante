@@ -3,10 +3,19 @@
   z-index: 1;
   width: 100%;
 
-  background-color: rgb(144, 94, 21) ;
+  background-color: var(--color5) ;
 }
 
-.header  > div{
+.header h1{
+  font-style: italic;
+  text-decoration:underline 1px ;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color8);
+}
+
+.header div{
    display:  flex;
    justify-content: space-between;
    align-items: center;

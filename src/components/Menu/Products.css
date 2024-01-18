@@ -4,3 +4,13 @@
   padding: 120px 20px;
   gap: 20px;
 }
+
+.products-title{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  color: var(--color1);
+}
