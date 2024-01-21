@@ -4,6 +4,7 @@
   width: 100%;
 
   background-color: var(--color5) ;
+  box-shadow: 0 0 20px 3px var(--color5);
 }
 
 .header h1{

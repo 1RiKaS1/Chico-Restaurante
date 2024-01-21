@@ -14,7 +14,7 @@ import formatCurrency from '../../utils/formatCurrency';
 import './ProductCard.css';
 
 function ProductCard({ data }) {
-  const { title, thumbnail, price } = data;
+  const { title, thumbnail, price, domain_id } = data;
 
   const { cartItems, setCartItems } = useContext(AppContext);
 
@@ -30,8 +30,9 @@ function ProductCard({ data }) {
       />
 
       <div className="card__infos">
-        <h2 className="card__price">{formatCurrency(price, 'BRL')}</h2>
         <h2 className="card__title">{title}</h2>
+        <h2 className="card__price">{formatCurrency(price, 'BRL')}</h2>
+        <h2 className="card__title">{domain_id}</h2>
       </div>
 
       <button

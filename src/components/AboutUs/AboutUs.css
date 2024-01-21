@@ -1,5 +1,6 @@
 .about{
   display: flex;
+  flex-direction: column;
   padding: 160px;
   width: 100%;
 
@@ -8,9 +9,32 @@
   color: var(--color1);
 }
 
+.about h1{
+  font-size: 3rem;
+  text-align: center;
+  width: 75%;
+  padding: 50px 10px 50px 10px ;
+  margin:  0 auto;
+
+  color: var(--color8);
+  background-color: var(--color1);
+
+}
+
+.about p{
+  font-size: 160%;
+  text-align: justify;
+  text-justify: auto;
+  padding: 100px 0px 100px 0px;
+}
+
 .about-img{
-  min-width:10px;
-  size: 10em;
-  width: auto;
+  margin:  0 auto;
+  align-items: center;
+  padding: 10px;
+  max-width: 600px;
+  width: 100%;
   border-radius: 40px;
+
+  box-shadow: 10px 10px ;
 }
