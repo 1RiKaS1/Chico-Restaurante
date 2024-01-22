@@ -18,7 +18,7 @@ function Products() {
   
 
   useEffect(() => {
-    fetchProducts('iphone').then((response) => {
+    fetchProducts('comida').then((response) => {
       setProducts(response);
       setLoading(false);
     });
